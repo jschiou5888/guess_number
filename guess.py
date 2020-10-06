@@ -1,7 +1,9 @@
 # 猜數字
 import random
+start = int(input('請決定隨機數字的初始值:'))
+end = int(input('請決定隨機數字的最終值:'))
 
-r = random.randint(1,100)
+r = random.randint(start,end)
 count = 0
 while True:
 	count = count + 1
